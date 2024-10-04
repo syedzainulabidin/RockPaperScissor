@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="obj">
+        <div class="user">
+          <img class="userHand" src="images/rock.png" alt="" />
+          <h2>You</h2>
+        </div>
+        <div class="ai">
+          <img class="aiHand" src="images/rock.png" alt="" />
+          <h2>AI</h2>
+        </div>
+      </div>
+      <div class="options">
+        <h3>PICK YOUR MOVE</h3>
+        <ul>
+          <li><img src="images/rock.png" class="item rock" alt="" /></li>
+          <li><img src="images/paper.png" class="item paper" alt="" /></li>
+          <li><img src="images/scissor.png" class="item scissor" alt="" /></li>
+        </ul>
+      </div>
+    </div>
+    <div class="end">
+      <h1 class="result"></h1>
+    </div>
+    <div class="score">
+      <div><h1 class="userScore">0</h1></div>
+      <div><h1 class="aiScore">0</h1></div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
